@@ -1,0 +1,55 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+<link rel="stylesheet" type="text/css" href="http://imagine.enpc.fr/~moulonp/style.css" /><script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.93/jsxgraphcore.js"></script>
+<title>SequentialReconstructionEngine SFM report.</title>
+</head>
+<h1>SequentialSfMReconstructionEngine</h1>
+<hr>Dataset info:Views count: 11<br><h1>Essential Matrix.</h1>
+-------------------------------<br>-- Robust Essential matrix: <0,8> images: 100_7100.JPG,100_7108.JPG<br>-- Threshold: 25.1168<br>-- Resection status: OK<br>-- Nb points used for robust Essential matrix estimation: 355<br>-- Nb points validated by robust estimation: 353<br>-- % points validated: 0.994366<br>-------------------------------<br><h2>Residual of the robust estimation (Initial triangulation). Thresholded at: 25.1168</h2>
+<h2>Histogram of residuals</h2>
+
+<div id="InitialPairTriangulationKeptInfo" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('InitialPairTriangulationKeptInfo', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00007,1.68846,3.37686,5.06526,6.75366,8.44206,10.13046,11.81886,13.50726,15.19566,];
+var data1= [1321.00000,78.00000,6.00000,5.00000,0.00000,0.00000,0.00000,0.00000,0.00000,1.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+var p2 = board.create('point',[25.11677,0.00000], {fixed:true});
+var p3 = board.create('point',[25.11677,1321.00000], {fixed:true});
+var li = board.create('line',[p2,p3], {strokeColor:'00ff00',strokeWidth:2});
+board.unsuspendUpdate();
+board.setBoundingBox([-3.03905,1585.20000,18.23477,-264.20000]);
+</script>
+<hr><h1>Resection of Image index: <1> image: 100_7101.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <1> image: 100_7101.JPG<br>-- Threshold: 9.16227<br>-- Resection status: OK<br>-- Nb points used for Resection: 312<br>-- Nb points validated by robust estimation: 299<br>-- % points validated: 0.958333<br>-------------------------------<br><h1>Resection of Image index: <2> image: 100_7102.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <2> image: 100_7102.JPG<br>-- Threshold: 6.409<br>-- Resection status: OK<br>-- Nb points used for Resection: 1238<br>-- Nb points validated by robust estimation: 1174<br>-- % points validated: 0.948304<br>-------------------------------<br><h1>Resection of Image index: <4> image: 100_7104.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <4> image: 100_7104.JPG<br>-- Threshold: 16.1205<br>-- Resection status: OK<br>-- Nb points used for Resection: 1352<br>-- Nb points validated by robust estimation: 1318<br>-- % points validated: 0.974852<br>-------------------------------<br><h1>Resection of Image index: <3> image: 100_7103.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <3> image: 100_7103.JPG<br>-- Threshold: 8.6487<br>-- Resection status: OK<br>-- Nb points used for Resection: 1906<br>-- Nb points validated by robust estimation: 1862<br>-- % points validated: 0.976915<br>-------------------------------<br><h1>Resection of Image index: <7> image: 100_7107.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <7> image: 100_7107.JPG<br>-- Threshold: 14.1385<br>-- Resection status: OK<br>-- Nb points used for Resection: 1119<br>-- Nb points validated by robust estimation: 957<br>-- % points validated: 0.855228<br>-------------------------------<br><h1>Resection of Image index: <6> image: 100_7106.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <6> image: 100_7106.JPG<br>-- Threshold: 13.2273<br>-- Resection status: OK<br>-- Nb points used for Resection: 1416<br>-- Nb points validated by robust estimation: 1310<br>-- % points validated: 0.925141<br>-------------------------------<br><h1>Resection of Image index: <5> image: 100_7105.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <5> image: 100_7105.JPG<br>-- Threshold: 15.2404<br>-- Resection status: OK<br>-- Nb points used for Resection: 1662<br>-- Nb points validated by robust estimation: 1592<br>-- % points validated: 0.957882<br>-------------------------------<br><h1>Resection of Image index: <10> image: 100_7110.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <10> image: 100_7110.JPG<br>-- Threshold: 6.65486<br>-- Resection status: OK<br>-- Nb points used for Resection: 430<br>-- Nb points validated by robust estimation: 395<br>-- % points validated: 0.918605<br>-------------------------------<br><h1>Resection of Image index: <9> image: 100_7109.JPG<br> 
+</h1>
+-------------------------------<br>-- Robust Resection of camera index: <9> image: 100_7109.JPG<br>-- Threshold: 3.81816<br>-- Resection status: OK<br>-- Nb points used for Resection: 385<br>-- Nb points validated by robust estimation: 356<br>-- % points validated: 0.924675<br>-------------------------------<br><hr><h1>Structure from Motion process finished.</h1>
+-------------------------------<br>-- Structure from Motion (statistics):<br>-- #Camera calibrated: 11 from 11 input images.<br>-- #Tracks, #3D points: 6532<br>-------------------------------<br><h2>Histogram of reprojection-residuals</h2>
+
+<div id="3DtoImageResiduals" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('3DtoImageResiduals', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00000,0.44235,0.88469,1.32704,1.76938,2.21173,2.65408,3.09642,3.53877,3.98111,];
+var data1= [35367.00000,6096.00000,1726.00000,630.00000,328.00000,134.00000,90.00000,43.00000,37.00000,15.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.79622,42437.40000,4.77734,-7055.40000]);
+</script>
+</html>
