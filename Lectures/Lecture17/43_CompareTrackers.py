@@ -1,3 +1,5 @@
+#!/opt/anaconda3/envs/ECE1390/bin/python3
+
 # Modified from https://medium.com/@smilesajid14/simple-tracking-307aff2f80f3
 
 # Python 2/3 compatibility

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/opt/anaconda3/envs/ECE1390/bin/python3
 
 '''
 Lucas-Kanade tracker

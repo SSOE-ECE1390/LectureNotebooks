@@ -1,4 +1,4 @@
-#!/opt/anaconda3/bin/python3
+#!/opt/anaconda3/envs/ECE1390/bin/python3
 
 import cv2
 import numpy as np

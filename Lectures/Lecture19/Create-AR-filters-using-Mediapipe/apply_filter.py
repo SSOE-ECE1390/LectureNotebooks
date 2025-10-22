@@ -90,7 +90,7 @@ def getLandmarks(img):
 
 def load_filter_img(img_path, has_alpha):
     # Read the image
-    img_path = '/Users/theodorehuppert/Desktop/ECE1390/learnopencv/Create-AR-filters-using-Mediapipe/' + img_path
+    img_path = '/Users/theodorehuppert/Desktop/Teaching2/ECE1390/2025/LectureNotebooks/Lectures/Lecture19/Create-AR-filters-using-Mediapipe' + img_path
     img = cv2.imread(img_path, cv2.IMREAD_UNCHANGED)
 
     alpha = None
@@ -102,7 +102,7 @@ def load_filter_img(img_path, has_alpha):
 
 
 def load_landmarks(annotation_file):
-    annotation_file = '/Users/theodorehuppert/Desktop/ECE1390/learnopencv/Create-AR-filters-using-Mediapipe/' + annotation_file
+    annotation_file = '/Users/theodorehuppert/Desktop/Teaching2/ECE1390/2025/LectureNotebooks/Lectures/Lecture19/Create-AR-filters-using-Mediapipe' + annotation_file
     
     with open(annotation_file) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=",")
@@ -177,7 +177,7 @@ def load_filter(filter_name="dog"):
 
 
 # process input from webcam or video file
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 # Some variables
 count = 0
