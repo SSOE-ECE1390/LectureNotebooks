@@ -39,11 +39,13 @@ from numpy.linalg import norm
 from common import clock, mosaic
 
 import os
-
+from pathlib import Path
 
 SZ = 20 # size of each digit is SZ x SZ
 CLASS_N = 10
-DIGITS_FN = "/Users/theodorehuppert/Desktop/ECE1390/LectureNotebooks/Data/digits.png"
+
+script_path = Path(__file__).absolute()
+DIGITS_FN = str(script_path.parent) + '/../../Data/digits.png'
 
 def split2d(img, cell_size, flatten=True):
     h, w = img.shape[:2]

@@ -1,0 +1,22 @@
+# Blender 4.5.3 LTS MTL File: 'None'
+# www.blender.org
+
+newmtl Material.001
+Ns 194.117691
+Ka 1.000000 1.000000 1.000000
+Ks 0.139640 0.139640 0.139640
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Users/theodorehuppert/Downloads/3e1suflbyikg-Pumpkin/Pumpkin.JPG
+
+newmtl Material.003
+Ns 194.117691
+Ka 1.000000 1.000000 1.000000
+Ks 0.193694 0.193694 0.193694
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Users/theodorehuppert/Downloads/3e1suflbyikg-Pumpkin/Green area.JPG

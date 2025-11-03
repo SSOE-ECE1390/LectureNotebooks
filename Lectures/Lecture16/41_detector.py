@@ -36,7 +36,7 @@ if __name__ == "__main__":
     object_cascades = get_object_cascades(cascadefile)
 
     # Video Capture from the default camera (camera index 0)
-    cam = cv2.VideoCapture(1)
+    cam = cv2.VideoCapture(0)
     cam.set(3, 640)  # Set width
     cam.set(4, 480)  # Set height
     
@@ -57,7 +57,7 @@ if __name__ == "__main__":
                 gray,
                 scaleFactor=1.2,
                 minNeighbors=5,
-                minSize=(int(minW), int(minH)),
+                minSize=(int(minW), int(minH))
             )
         
             for (x, y, w, h) in objects:
